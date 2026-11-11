@@ -1,6 +1,6 @@
-# RECONX 🔎
+# CYNEX 🔎
 
-**RECONX** is an automated reconnaissance tool developed in Bash, designed to assist security researchers and bug bounty hunters during the information-gathering phase.
+**CYNEX** is an automated reconnaissance tool developed in Bash, designed to assist security researchers and bug bounty hunters during the information-gathering phase.
 
 The tool integrates popular reconnaissance utilities to automate subdomain enumeration, HTTP status verification, URL collection and endpoint categorization.
 
@@ -42,7 +42,7 @@ Resultado/
 
 ### 🎯 Purpose
 
-RECONX was created as a personal project to improve Bash scripting skills and automate reconnaissance workflows for authorized security testing.
+CYNEX was created as a personal project to improve Bash scripting skills and automate reconnaissance workflows for authorized security testing.
 
 ### ⚠️ Disclaimer
 
