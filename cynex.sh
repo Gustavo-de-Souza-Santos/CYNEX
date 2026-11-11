@@ -2,7 +2,7 @@
 #!/bin/bash
 
 # ==========================================
-#  RECONX - AUTOMATED RECONNAISSANCE TOOL
+#  CyNeX - AUTOMATED RECONNAISSANCE TOOL
 #  Subfinder | HTTPX | GAU | GREP
 # ==========================================
 
@@ -30,19 +30,19 @@ banner() {
     echo -e "${CYAN}"
     cat << "EOF"
 
-██████╗ ███████╗ ██████╗ ██████╗ ███╗   ██╗██╗  ██╗
-██╔══██╗██╔════╝██╔════╝██╔═══██╗████╗  ██║╚██╗██╔╝
-██████╔╝█████╗  ██║     ██║   ██║██╔██╗ ██║ ╚███╔╝ 
-██╔══██╗██╔══╝  ██║     ██║   ██║██║╚██╗██║ ██╔██╗ 
-██║  ██║███████╗╚██████╗╚██████╔╝██║ ╚███║██╔╝ ██╗
-╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝
+ ██████╗██╗   ██╗███╗   ██╗███████╗██╗  ██╗
+██╔════╝╚██╗ ██╔╝████╗  ██║██╔════╝╚██╗██╔╝
+██║      ╚████╔╝ ██╔██╗ ██║█████╗   ╚███╔╝ 
+██║       ╚██╔╝  ██║╚██╗██║██╔══╝   ██╔██╗ 
+╚██████╗   ██║   ██║ ╚████║███████╗██╔╝ ██╗
+ ╚═════╝   ╚═╝   ╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝
 
        AUTOMATED RECONNAISSANCE
 EOF
     echo -e "${RESET}"
 
     echo -e "${PURPLE}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${RESET}"
-    echo -e "${WHITE}  [ RECONX ]${RESET} ${CYAN}Subdomain & URL Enumeration${RESET}"
+    echo -e "${WHITE}  [ CYNEX ]${RESET} ${CYAN}Subdomain & URL Enumeration${RESET}"
     echo -e "${WHITE}  [ AUTHOR ]${RESET} ${GREEN}Gustavo${RESET}"
     echo -e "${WHITE}  [ VERSION]${RESET} ${GREEN}V1.0${RESET}"
     echo -e "${WHITE}  [ TOOLS  ]${RESET} Subfinder | HTTPX | GAU | GREP"
@@ -243,7 +243,7 @@ filtra_url() {
         "javascript.txt" "JavaScript"
 
     # XSS
-    filter_file '[?&](q|query|search|s|keyword|name|message|comment|title|callback|input)=' \
+    filter_file '[?&](q|query|search|s|keyword|name|message|comment|title|callback|input)='  \
         "xss.txt" "XSS"
 
     # SQL Injection
@@ -319,12 +319,12 @@ main() {
     echo ""
     echo -e "${GREEN}"
     cat << "EOF"
-██████╗ ███████╗ ██████╗ ██████╗ ███╗   ██╗██╗  ██╗
-██╔══██╗██╔════╝██╔════╝██╔═══██╗████╗  ██║╚██╗██╔╝
-██████╔╝█████╗  ██║     ██║   ██║██╔██╗ ██║ ╚███╔╝ 
-██╔══██╗██╔══╝  ██║     ██║   ██║██║╚██╗██║ ██╔██╗ 
-██║  ██║███████╗╚██████╗╚██████╔╝██║ ╚███║██╔╝ ██╗
-╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝
+ ██████╗██╗   ██╗███╗   ██╗███████╗██╗  ██╗
+██╔════╝╚██╗ ██╔╝████╗  ██║██╔════╝╚██╗██╔╝
+██║      ╚████╔╝ ██╔██╗ ██║█████╗   ╚███╔╝ 
+██║       ╚██╔╝  ██║╚██╗██║██╔══╝   ██╔██╗ 
+╚██████╗   ██║   ██║ ╚████║███████╗██╔╝ ██╗
+ ╚═════╝   ╚═╝   ╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝
 EOF
     echo -e "${RESET}"
 
@@ -340,7 +340,7 @@ EOF
 
     separator
 
-    success "Obrigado por utilizar o RECONX!"
+    success "Obrigado por utilizar o CYNESX!"
 }
 
 # Iniciar
